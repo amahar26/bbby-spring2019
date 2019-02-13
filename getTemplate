@@ -252,6 +252,9 @@ body {
 .height414 {
 	height: 414px !important;
 }
+.height550 {
+  height: 550px !important;
+}
 .height640 {
 	height: 640px !important;
 }
@@ -561,7 +564,10 @@ body {
 }	
 	.mobileShowEyebrowInner{
 		display:block !important;
-	}		
+	}
+.imgReplaceBG550_HERO{
+	background-image: url(http://static.cdn.responsys.net/i2/responsysimages/content/bbby/BBBY_US_2_24_TopAwardsSeason_hero-mbl.jpg) !important;
+	}	
 .imgReplaceGiftCard	{
 	background-image: url(http://static.cdn.responsys.net/i2/responsysimages/content/bbby/2_22_BBBY_CAN_SpringCleaning_GiftCertsbg-mbl.jpg) !important;
 	padding-top:10px !important;
@@ -587,6 +593,17 @@ body {
 	max-width: 414px !important;		
 		
 	}	
+	
+.imgReplaceBG240Static2 {
+  background-image: url(http://static.cdn.responsys.net/i2/responsysimages/content/bbby/BBBY_US_2019_2_12_Uggs_bg_dividers-mbl.jpg) !important;
+  width: 100% !important;
+  height: 240px !important;
+  /* update height here */
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  display: block !important;
+}	
 /*** end Responsive CSS ***/
 }
 </style>
@@ -633,7 +650,7 @@ body {
                 <td align="center" valign="top" style="padding:20px 0px;padding-bottom:10px;" class="logoPadding"><table cellpadding="0" cellspacing="0" border="0" width="100%">
                     <tr> 
                       <!-- logo -->
-                      <td align="center" valign="top"><a href="${clickthrough('BBBY_CA_TN_LOGO','EMAIL_SHA256_HASH_')}" target="_blank" style="font-size:1px; line-height:1px; text-decoration:none;"><img src="http://static.cdn.responsys.net/i2/responsysimages/content/bbby/bbb_horiz_CA_blk.png" width="260" height="17" border="0" style="color:#2D5D85; font-weight:bold;font-size:15px;text-transform: uppercase; font-family:Arial, sans-serif;" alt="Bed Bath &amp; Beyond"></a></td>
+                      <td align="center" valign="top"><a href="${clickthrough('BBBY_CA_TN_LOGO','EMAIL_SHA256_HASH_')}" target="_blank" style="font-size:1px; line-height:1px; text-decoration:none;"><img src="http://static.cdn.responsys.net/i2/responsysimages/content/bbby/bbb_horiz_blk.png" width="260" height="17" border="0" style="color:#2D5D85; font-weight:bold;font-size:15px;text-transform: uppercase; font-family:Arial, sans-serif;" alt="Bed Bath &amp; Beyond"></a></td>
                       <!-- end logo --> 
                     </tr>
                   </table></td>
